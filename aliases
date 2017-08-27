@@ -1,0 +1,11 @@
+# android sdk
+alias emuandroid="reset && emulator -avd "NEXUS_5_API_25" -skin 1080x1920 -use-system-libs"
+
+# ionic
+alias ionicsrv="reset && ionic serve --livereload --consolelogs"
+alias ionicweb="reset && ionic cordova run browser --livereload --consolelogs"
+alias ionicemu="reset && ionic cordova run android --livereload --consolelogs"
+
+# react (exp)
+alias expsrv="reset && sudo exp start . --localhost"
+alias expadb="adb reverse tcp:19000 tcp:19000 && adb reverse tcp:19001 tcp:19001"
